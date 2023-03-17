@@ -1,0 +1,16 @@
+Apessar de eu ja saber disso, não faz mal revisar
+
+1 - git clone URL fornecida no github, para clonar o resositorio na maquina pessoal, caso não o tenha ainda.
+2 - git status, após ter feito alguma alteração no código.
+3 - git add *, para adicionar todos os arquivos alterados na fila de arquivos quer serão encaminhados para o github.
+4 - git status, novamente só por desencargo de conciência, para caso por algum motivo o passo anterior n tenha dado certo ou só para ver mesmo todos os arquivos que estão para serem enviados.
+5 - git commit - m, para escrever algum textinho de envio que serve para dizer em poucas palavras o que na atualização foi feito.
+6 - git push origin main/master, para enviar os arquivos que estão na fila junto com o texto do commit
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Passo separado, para caso esteja trabalhando em conjunto com outra pessoa
+
+0 - git pull origin main/master, para trazer as alteraçãoes existentes no github que não estão em sua maquina devido a terem sido enviadas por uma segunda pessoa.
+
+OBS: Certifique-se de antes de fazer qualquer alteração sempre da pull para ter mais segurança nos arquivos que estão sendo alterados.
